@@ -1,0 +1,5 @@
+package com.busbooking.backend.repository;
+
+public interface BookingRepository {
+
+}

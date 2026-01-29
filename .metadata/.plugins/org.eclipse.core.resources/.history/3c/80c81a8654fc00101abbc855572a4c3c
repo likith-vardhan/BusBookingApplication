@@ -1,0 +1,5 @@
+package com.busbooking.backend.dto;
+
+public class LoginResponse {
+
+}

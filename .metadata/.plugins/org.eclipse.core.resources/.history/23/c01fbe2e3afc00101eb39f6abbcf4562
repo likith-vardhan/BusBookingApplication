@@ -1,0 +1,5 @@
+package com.busbooking.backend.model;
+
+public class Role {
+
+}

@@ -1,0 +1,5 @@
+package com.busbooking.backend.exception;
+
+public class GlobalExceptionHandler {
+
+}

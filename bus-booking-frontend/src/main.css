@@ -1,0 +1,51 @@
+.auth-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2563eb, #9333ea);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  width: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.auth-header {
+  background: linear-gradient(135deg, #1d4ed8, #7c3aed);
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.auth-body {
+  padding: 30px;
+}
+
+.form-control {
+  height: 45px;
+  border-radius: 8px;
+}
+
+.btn-auth {
+  height: 45px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.dashboard-hero {
+  background: linear-gradient(135deg, #2563eb, #9333ea);
+  color: white;
+  border-radius: 18px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.dashboard-card {
+  border-radius: 16px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+}

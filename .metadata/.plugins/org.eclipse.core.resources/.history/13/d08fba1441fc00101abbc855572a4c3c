@@ -1,0 +1,25 @@
+package com.busbooking.backend.service;
+
+import com.busbooking.backend.model.Role;
+import com.busbooking.backend.model.User;
+import com.busbooking.backend.repository.UserRepository;
+
+import lombok.Data;
+
+import org.springframework.stereotype.Service;
+@Data
+
+@Service
+public class UserService {
+
+    private final UserRepository userRepository;
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public User registerUser(User user) {
+        user.setRole(Role.USER);   // default role
+        return userRepository.save(user);
+    }
+}
